@@ -11,6 +11,7 @@
   - ElelevatedButton();
   - AlertDialog();
   - AppBar();
+  - CircularProgressIndicator();
   - FloatingActionButton();
 - Além das funcionalidades comuns do material, adicinei uma dependência para mostrar sua utilização e melhorar a UX;
 - Dividi o fluxo da solução em 3 etapas:
@@ -28,3 +29,4 @@
   - E adicionei um condição para aceitar somente números (sem ponto ou vírgula e sem letras);
 - Para a feature de reordenar os números, adicionei a dependencia ReorderableGridView para melhorar experiência, já que o Material não possui essa funcionalidade. Pensei em usar o ReorderableListView presente no Material, mas o GridView deixa a experiência mais interessante.
 - Para a verificar a ordem crescente utilizei um AlertDialog() para o display do resultado da verificação.
+- Adicionei um delay na verificação para conseguir utilizar um Loading simple com o CircularProgessIndicator();
