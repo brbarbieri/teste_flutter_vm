@@ -1,7 +1,7 @@
 # Teste Flutter VM - Bruno Barbieri
 
 ## Insights
-- Como o a solução, relativamente, era de baixa complexidade, investi mais na UI e UX e busquei explorar mais funcionalidades do Flutter;
+- Como a solução, relativamente, era de baixa complexidade, investi mais na UI e UX e busquei explorar mais funcionalidades do Flutter;
 - Busquei utilizar todas as funcionalidades principais e mais comuns presentes em qualquer aplicação desenvolvida em Flutter:
   - Text();
   - TextForm();
